@@ -1,0 +1,58 @@
+
+.messageblock {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.chatOption {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+
+.messageblock:hover .chatOption {
+    visibility: visible;
+}
+
+.edit {
+    color: #7abfc4;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.edit:hover,
+.delete:hover{
+    opacity: 1;
+}
+
+.delete {
+    color: #CD5C5C;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.textarea {
+    width: 600px;
+    height: 50px;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.author{
+    margin: 5px 0 0 5px;
+}
+
+.personal{
+    font-weight: 900;
+    color: #7abfc4;
+}
